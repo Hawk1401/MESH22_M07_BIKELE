@@ -26,20 +26,15 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
       working-directory: Code
-    - name: Simply Web Deploy
-    # You may pin to the exact commit or the version.
-    # uses: RasmusBuchholdt/simply-web-deploy@ba10f99c58f47b31cd8979163a4d40894193019e
+    - name: Publish
+      run: dotnet publish [WebAnalyser]/[WebAnalyser].csproj --configuration Release --output ./publish --runtime win-x86 --self-contained true -p:PublishTrimmed=false -p:PublishSingleFile=false
+      working-directory: Code
+      
+    - name: Deploy to Simply
       uses: RasmusBuchholdt/simply-web-deploy@2.0.0
       with:
-        # IIS website name
-        website-name: ${{ secrets.MSDEPLOYSITE }}
-        # IIS server computer name
-        server-computer-name: ${{ secrets.PUBLISHURL }}
-        # IIS server username
-        server-username: ${{ secrets.USERNAME }}
-        # IIS server password
-        server-password: ${{ secrets.PASSWORD }}
-        # The source directory for payload
-        source-path: \Code\WebAnalyser\bin\Release\net6.0
-        # optional, default is \publish\
-        # Delete files on the destination computer that do not exist on the source computer
+        website-name: ${{ secrets.WEBSITE_NAME }}
+        server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
+        server-username: ${{ secrets.SERVER_USERNAME }}
+        server-password: ${{ secrets.SERVER_PASSWORD }
+
