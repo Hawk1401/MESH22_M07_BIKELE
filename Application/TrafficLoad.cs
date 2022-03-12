@@ -15,7 +15,7 @@ namespace Application
             this.dataStorage = dataStorage;
         }
 
-        public Square GetTotalTrafficLoad()
+        public IEnumerable<Square> GetTotalTrafficLoad()
         {
             SquareManager squareManager = new SquareManager();
 
@@ -27,6 +27,7 @@ namespace Application
                 }
             }
 
+            return squareManager.GetAllSquares();
 
         }
     }

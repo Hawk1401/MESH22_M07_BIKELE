@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAnalyser", "WebAnalyser\WebAnalyser.csproj", "{CD67D1C6-CF45-4F68-8BD2-784B592D09EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMocker", "DataMocker\DataMocker.csproj", "{9B64BDA4-8AF2-48A6-A52A-EBD765C9B72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalTester", "LocalTester\LocalTester.csproj", "{E61F6B4C-9378-4624-92A2-98DC22C0523D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{CD67D1C6-CF45-4F68-8BD2-784B592D09EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD67D1C6-CF45-4F68-8BD2-784B592D09EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD67D1C6-CF45-4F68-8BD2-784B592D09EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B64BDA4-8AF2-48A6-A52A-EBD765C9B72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B64BDA4-8AF2-48A6-A52A-EBD765C9B72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B64BDA4-8AF2-48A6-A52A-EBD765C9B72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B64BDA4-8AF2-48A6-A52A-EBD765C9B72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61F6B4C-9378-4624-92A2-98DC22C0523D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61F6B4C-9378-4624-92A2-98DC22C0523D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61F6B4C-9378-4624-92A2-98DC22C0523D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61F6B4C-9378-4624-92A2-98DC22C0523D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

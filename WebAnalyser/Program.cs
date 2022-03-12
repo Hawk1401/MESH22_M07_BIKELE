@@ -1,7 +1,13 @@
+
+using Application;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddScoped<TrafficLoad>();
+builder.Services.AddScoped<IDataStorage, DBMocker>();
 
 var app = builder.Build();
 

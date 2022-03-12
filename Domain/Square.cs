@@ -10,12 +10,15 @@ namespace Domain
     {
         public int Count { get; private set; } = 0;
 
-        public Square(double latitude, double longitude)
-        {
+        public Coordinates Pos { get; private set; }
 
+        public Square(double latitude, double longitude) : this(new Coordinates(latitude, longitude))
+        {
         }
 
-        public Square(Coordinates coordinates) : this(coordinates.Latitude, coordinates.Longitude) { }
+        public Square(Coordinates coordinates) {
+            Pos = coordinates;
+        }
 
         public void Add()
         {

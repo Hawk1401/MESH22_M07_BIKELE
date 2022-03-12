@@ -13,6 +13,12 @@ namespace Application
         public Dictionary<Coordinates, Square> squares { get; set; }
         public int accuracy { get; set; } = 5;
 
+        public const double MinLatitude = 48.989099;
+        public const double MaxLatitude = 49.032786;
+
+        public const double Minlongitude = 8.348789;
+        public const double Maxlongitude = 8.442922;
+
         public SquareManager()
         {
             squares = new Dictionary<Coordinates, Square>();
@@ -20,14 +26,19 @@ namespace Application
 
         public void AddCoordinates(Coordinates Coordinates)
         {
+            if (!IsInGrid(Coordinates))
+            {
+                return;
+            }
+
             var SquareCoordinates = GetSquareCoordinates(Coordinates);
-            if (!squares.ContainsKey(Coordinates))
+            if (!squares.ContainsKey(SquareCoordinates))
             {
                 var newSquares = new Square(SquareCoordinates);
                 squares.Add(SquareCoordinates, newSquares);
             }
 
-            var CurrentSquare = squares[Coordinates];
+            var CurrentSquare = squares[SquareCoordinates];
             CurrentSquare.Add();
         }
 
@@ -57,6 +68,21 @@ namespace Application
         public IEnumerable<Square> GetAllSquares()
         {
             return squares.Values;
+        }
+
+        private bool IsInGrid(Coordinates Coordinates)
+        {
+            if(Coordinates.Longitude < Minlongitude || Coordinates.Longitude > Maxlongitude)
+            {
+                return false;
+            }
+
+            if (Coordinates.Latitude < MinLatitude || Coordinates.Latitude > MaxLatitude)
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }
