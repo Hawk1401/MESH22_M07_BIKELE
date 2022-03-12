@@ -1,10 +1,13 @@
 ﻿using DataMocker;
 using Domain;
+using FileSupplier;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace Application
 {
@@ -15,10 +18,10 @@ namespace Application
 
             foreach (var pos in posList())
             {
-                    yield return new Ride
-                    {
-                        TrackedInfos = TrackedInfos(pos)
-                    };
+                yield return new Ride
+                {
+                    TrackedInfos = TrackedInfos(pos)
+                };
             }
 
             foreach (var pos in rides())
@@ -74,8 +77,7 @@ namespace Application
 
         public IEnumerable<List<Coordinates>> posList()
         {
-            var path = @"C:\Users\schal\Downloads\Export\apple_health_export\workout-routes";
-            var files = Directory.GetFiles(path);
+            var files = GPXFiles.GetAllGPXFiles();
             var count = 10;
             foreach (var file in files)
             {
@@ -105,9 +107,7 @@ namespace Application
 
         public IEnumerable<List<Coordinates>> posListv2()
         {
-            var path = @"C:\Users\schal\Downloads\Export\apple_health_export\workout-routes";
-            var files = Directory.GetFiles(path);
-            var count = 10;
+            var files = GPXFiles.GetAllGPXFiles(); 
             foreach (var file in files)
             {
                 GpxExtracter gpxExtracter = new GpxExtracter(file);
@@ -148,8 +148,6 @@ namespace Application
                 yield return AddMisingGPSPorints(new Coordinates(49.011315, 8.400148), new Coordinates(49.010020, 8.404099));
             }
         }
-
-
 
 
         public List<Coordinates> AddMisingGPSPorints(List<Coordinates> coordinates)

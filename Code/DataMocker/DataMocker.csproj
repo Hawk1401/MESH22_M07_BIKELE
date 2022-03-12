@@ -7,19 +7,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <None Remove="GPX\route_2020-10-15_4.13pm.gpx" />
+    <None Remove="GPX\route_2020-10-15_8.52pm.gpx" />
+    <None Remove="GPX\route_2020-10-16_4.53pm.gpx" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="GPX\route_2020-10-15_4.13pm.gpx">
+    <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="GPX\route_2020-10-15_4.13pm.gpx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="GPX\route_2020-10-15_8.52pm.gpx">
+    </Resource>
+    <Resource Include="GPX\route_2020-10-15_8.52pm.gpx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="GPX\route_2020-10-16_4.53pm.gpx">
+    </Resource>
+    <Resource Include="GPX\route_2020-10-16_4.53pm.gpx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\FileSupplier\FileSupplier.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="GPX\route_2020-10-16_9.15pm.gpx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -782,6 +796,10 @@
     <None Update="GPX\route_2022-03-11_2.19pm.gpx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>

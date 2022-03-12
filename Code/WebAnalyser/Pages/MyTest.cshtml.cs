@@ -15,6 +15,8 @@ namespace WebAnalyser.Pages
         }
         public void OnGet()
         {
+            Trafic = new List<Square>();
+
             Trafic = trafficLoad.GetTotalTrafficLoad();
         }
     }

@@ -1,8 +1,11 @@
 ﻿using Domain;
+using FileSupplier;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Reflection;
+using System.Resources;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -11,10 +14,10 @@ namespace DataMocker
 {
     public class GpxExtracter
     {
-        private string GPXFilePath;
-        public GpxExtracter(string GPXFilePath)
+        private string FileContent;
+        public GpxExtracter(string FileContent)
         {
-            this.GPXFilePath = GPXFilePath;
+            this.FileContent = FileContent;
         }
 
         public static string[] FilePaths()
@@ -25,8 +28,6 @@ namespace DataMocker
         public List<Coordinates> GetCoordinates()
         {
             var coordinates = new List<Coordinates>();
-
-            var FileContent = File.ReadAllText(this.GPXFilePath);
 
             Regex rg = new Regex("<trkpt[^>]*>");
 

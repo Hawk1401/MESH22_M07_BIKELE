@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="route0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route0.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route1.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route10.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route100.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route101.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route102.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route103.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route104.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route105.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route106.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route107.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route108.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route109.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route11.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route110.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route111.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route112.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route113.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route114.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route115.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route116.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route117.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route118.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route119.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route12.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route120.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route121.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route122.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route123.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route124.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route125.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route126.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route127.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route128.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route129.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route13.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route130.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route131.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route132.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route133.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route134.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route135.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route136.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route137.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route138.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route139.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route14.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route140.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route141.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route142.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route143.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route144.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route145.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route146.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route147.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route148.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route149.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route15.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route150.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route151.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route152.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route153.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route154.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route155.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route156.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route157" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route157.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route158" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route158.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route159.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route16.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route160.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route161.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route162.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route163" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route163.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route164.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route165" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route165.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route166.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route167.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route168" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route168.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route169.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route17.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route170" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route170.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route171.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route172.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route173" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route173.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route174.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route175" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route175.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route176" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route176.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route177" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route177.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route178" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route178.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route179" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route179.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route18.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route180.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route181.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route182.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route183.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route184" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route184.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route185" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route185.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route186.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route187.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route188.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route189" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route189.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route19.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route190.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route191.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route192.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route193.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route194" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route194.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route195" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route195.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route196" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route196.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route197.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route198" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route198.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route199.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route2.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route20.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route200.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route201.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route202.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route203.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route204.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route205.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route206" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route206.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route207.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route208" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route208.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route209" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route209.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route21.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route210.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route211.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route212.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route213.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route214" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route214.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route215" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route215.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route216" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route216.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route217" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route217.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route218.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route219" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route219.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route22.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route220.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route221.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route222.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route223.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route224" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route224.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route225.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route226" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route226.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route227.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route228.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route229.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route23.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route230" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route230.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route231.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route232.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route233.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route234.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route235.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route236.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route237" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route237.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route238" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route238.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route239.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route24.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route240.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route241.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route242.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route243.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route244" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route244.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route245.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route246" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route246.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route247.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route248.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route249.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route25.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route250.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route251.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route252.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route253.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route254" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route254.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route255.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route256.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route26.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route27.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route28.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route29.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route3.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route30.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route31.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route32.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route33.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route34.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route35.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route36.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route37.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route38.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route39.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route4.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route40.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route41.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route42.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route43.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route44.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route45.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route46.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route47.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route48.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route49.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route5.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route50.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route51.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route52.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route53.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route54.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route55.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route56.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route57.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route58.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route59.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route6.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route60.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route61.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route62.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route63.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route64.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route65.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route66.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route67.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route68.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route69.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route7.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route70.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route71.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route72.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route73.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route74.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route75.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route76.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route77.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route78.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route79.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route8.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route80.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route81.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route82.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route83.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route84.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route85.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route86.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route87.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route88.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route89.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route9.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route90.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route91.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route92.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route93.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route94.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route95.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route96.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route97.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route98.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="route99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\route99.gpx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
