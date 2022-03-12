@@ -27,7 +27,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
       working-directory: Code
     - name: Publish
-      run: dotnet publish [WebAnalyser]/[WebAnalyser].csproj --configuration Release --output ./publish --runtime win-x86 --self-contained true -p:PublishTrimmed=false -p:PublishSingleFile=false
+      run: dotnet publish WebAnalyser/WebAnalyser.csproj --configuration Release --output ./publish --runtime win-x86 --self-contained true -p:PublishTrimmed=false -p:PublishSingleFile=false
       working-directory: Code
       
     - name: Deploy to Simply
