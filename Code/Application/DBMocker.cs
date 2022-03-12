@@ -13,7 +13,20 @@ namespace Application
 {
     public class DBMocker : IDataStorage
     {
+        private List<Ride> positions { get; set; } = new List<Ride>();
+        
         public IEnumerable<Ride> GetAllRides()
+        {
+            if(positions.Count == 0)
+            {
+                positions = CalcAllRides().ToList();    
+            }
+
+            return positions;
+        }
+
+
+        private IEnumerable<Ride> CalcAllRides()
         {
 
             foreach (var pos in posList())

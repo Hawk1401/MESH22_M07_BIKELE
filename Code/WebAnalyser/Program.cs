@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.AddScoped<TrafficLoad>();
-builder.Services.AddScoped<IDataStorage, DBMocker>();
+builder.Services.AddSingleton<IDataStorage, DBMocker>();
 
 var app = builder.Build();
 
