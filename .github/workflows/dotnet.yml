@@ -29,7 +29,6 @@ jobs:
     - name: Publish
       run: dotnet publish WebAnalyser/WebAnalyser.csproj --configuration Release --output ./publish --runtime win-x86 --self-contained true -p:PublishTrimmed=false -p:PublishSingleFile=false
       working-directory: Code
-      
     - name: Deploy to Simply
       uses: RasmusBuchholdt/simply-web-deploy@2.0.0
       with:
