@@ -75,9 +75,6 @@ function getPoints() {
   return [
         @foreach(var sqaure in Model.Trafic)
         {
-            //    <text>new google.maps.LatLng(@sqaure.Pos.Latitude.ToString().Replace(",", "."), @sqaure.Pos.Longitude.ToString().Replace(",", ".")),
-            //</text>
-
             <text>{location: new google.maps.LatLng(@sqaure.Pos.Latitude.ToString().Replace(",", "."), @sqaure.Pos.Longitude.ToString().Replace(",", ".")), weight: @sqaure.Count + 10},</text>
         }
   ];
