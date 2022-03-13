@@ -8,7 +8,7 @@ Gruppenmitglieder
 
 
 ### Video
-https://user-images.githubusercontent.com/46092144/158041362-ffa6a79e-a6b9-4411-b7f1-445990040ba1.mp4
+![Werbe Video](https://user-images.githubusercontent.com/46092144/158041362-ffa6a79e-a6b9-4411-b7f1-445990040ba1.mp4)
 
 
 ### Mockup
