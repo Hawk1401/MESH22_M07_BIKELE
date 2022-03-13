@@ -28,6 +28,9 @@ https://user-images.githubusercontent.com/46092144/158054193-aa94fcc3-d72f-48cd-
 
 
 ### Analysieren
+Die gesammelten GPS daten aller Teilnehmer kann man zum auswerten wichtiger Verkehrsinformationen nutzen, so kann man da drin erkennen welche strecken auch wirklich von Rad fahren benutzt werden, und wo es zu einem erhöhten Verkehrsaufkommen aufkommen kommt. Wie eine solche Analyse aussehen könnte, sieht man im folgenden Beispiel. Die daten sind echte GPS daten der letzten 2 Jahre eines unserer Teammitglieder.
+Die Visualisierung erfolgt mithilfe der Google Maps API.
+
 [Demo](http://hawk140100-001-site1.ctempurl.com/karlsruhe) Beim ersten Öffnen kan es mehere Sekunden dauern bis die Seite geladen ist.
 
 
