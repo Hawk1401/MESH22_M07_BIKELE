@@ -17,16 +17,15 @@ namespace Application
         
         public IEnumerable<Ride> GetAllRides()
         {
-            if(positions.Count == -1)
+            if(positions.Count == 0)
             {
                 positions = CalcAllRides().ToList();
 
-                System.Timers.Timer timer = new System.Timers.Timer(1000);
+                System.Timers.Timer timer = new System.Timers.Timer(5 * 60000);
                 timer.AutoReset = false;
                 timer.Elapsed += Relase;
                 timer.Enabled = true;
             }
-            return CalcAllRides();
             return new  List<Ride>(positions);
         }
 

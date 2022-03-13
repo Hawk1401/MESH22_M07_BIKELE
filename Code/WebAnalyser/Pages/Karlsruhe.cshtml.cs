@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WebAnalyser.Pages
 {
-    public class MyTestModel : PageModel
+    public class KarlsruheModel : PageModel
     {
         private TrafficLoad trafficLoad;
         public IEnumerable<Square> Trafic { get => trafficLoad.GetTotalTrafficLoad(); }
-        public MyTestModel(TrafficLoad trafficLoad)
+        public KarlsruheModel(TrafficLoad trafficLoad)
         {
             this.trafficLoad = trafficLoad;
         }
