@@ -26,8 +26,9 @@ namespace Application
                     squareManager.AddCoordinates(trackedInfo.Position);
                 }
             }
-
-            return squareManager.GetAllSquares();
+            var result = squareManager.GetAllSquares().ToList() ;
+            squareManager.Clear();
+            return result;
 
         }
     }

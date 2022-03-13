@@ -17,12 +17,23 @@ namespace Application
         
         public IEnumerable<Ride> GetAllRides()
         {
-            if(positions.Count == 0)
+            if(positions.Count == -1)
             {
-                positions = CalcAllRides().ToList();    
-            }
+                positions = CalcAllRides().ToList();
 
-            return positions;
+                System.Timers.Timer timer = new System.Timers.Timer(1000);
+                timer.AutoReset = false;
+                timer.Elapsed += Relase;
+                timer.Enabled = true;
+            }
+            return CalcAllRides();
+            return new  List<Ride>(positions);
+        }
+
+        private void Relase(object? sender, ElapsedEventArgs e)
+        {
+            positions.Clear();
+            System.GC.Collect(3, GCCollectionMode.Forced);
         }
 
 
@@ -110,12 +121,6 @@ namespace Application
                     break;
                 }
             }
-
-
-            //yield return pos(100, 49.01468047, 8.36111605, 49.01301978, 8.38212848);
-            //yield return pos(100, 49.00857226, 8.37360442, 49.00811482, 8.37597549);
-            //yield return pos(5000, 49.00811482, 8.37597549, 49.00751662, 8.38959038);
-            //yield return pos(100, 49.00811482, 8.37597549, 49.00751662, 8.38959038);
         }
 
         public IEnumerable<List<Coordinates>> posListv2()
@@ -127,12 +132,6 @@ namespace Application
 
                 yield return gpxExtracter.GetCoordinates();
             }
-
-
-            //yield return pos(100, 49.01468047, 8.36111605, 49.01301978, 8.38212848);
-            //yield return pos(100, 49.00857226, 8.37360442, 49.00811482, 8.37597549);
-            //yield return pos(5000, 49.00811482, 8.37597549, 49.00751662, 8.38959038);
-            //yield return pos(100, 49.00811482, 8.37597549, 49.00751662, 8.38959038);
         }
 
         public IEnumerable<IEnumerable<Coordinates>> rides()

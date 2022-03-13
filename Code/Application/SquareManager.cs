@@ -70,6 +70,11 @@ namespace Application
             return squares.Values;
         }
 
+        public void Clear()
+        {
+            squares.Clear();
+        }
+
         private bool IsInGrid(Coordinates Coordinates)
         {
             if(Coordinates.Longitude < Minlongitude || Coordinates.Longitude > Maxlongitude)
