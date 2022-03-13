@@ -29,7 +29,7 @@ Durch das Sammeln von Bikele Blättern durch Radfahren und Orte markieren könne
 
 ## Zum Slebst ausprobiren 
 ### App (Mockup)
-[App](https://www.figma.com/proto/LI2PYmKuQUiLs8Ji1z4Jcx/Mockup?page-id=227%3A760&node-id=227%3A954&viewport=241%2C48%2C0.63&scaling=scale-down&starting-point-node-id=227%3A954&show-proto-sidebar=1) 
+Klicken sie [Hier](https://www.figma.com/proto/LI2PYmKuQUiLs8Ji1z4Jcx/Mockup?page-id=227%3A760&node-id=227%3A954&viewport=241%2C48%2C0.63&scaling=scale-down&starting-point-node-id=227%3A954&show-proto-sidebar=1)  um die App zu testen.
 ### Maps ansicht
 Klicken sie [Hier](http://hawk140100-001-site1.ctempurl.com/karlsruhe) um die Live Demo zu testen. Beim ersten Öffnen kan es mehere Sekunden dauern bis die Seite geladen ist.
 ## Video
