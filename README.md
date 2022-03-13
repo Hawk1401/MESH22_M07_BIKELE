@@ -5,7 +5,8 @@ Gruppenmitglieder
 - Markus Götz
 - Florian Koch
 
-![grafik](https://user-images.githubusercontent.com/72688158/158055430-b2aa8398-fd26-4f3d-b1ef-12834120ff66.png)
+![LOGO_FINAL](https://user-images.githubusercontent.com/67091927/158055824-15713e8f-f3ff-47cf-81f4-7aab5dc81aaf.png)
+
 
 ## Idee
 
