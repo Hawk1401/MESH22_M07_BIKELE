@@ -6,6 +6,22 @@ Gruppenmitglieder
 - Florian Koch
 ## Idee
 
+**Was ist die Mobilität der Zukunft?** 
+Stellt man sich eine Smart Citry vor, so denkt man häufig an große Dimensionen wie Hyperloops oder Fahrbahnen mit Solarzellen um E-Autos aufzuladen. Intelligenter und umweltfreundlicher Verkehr beginnt jedoch auch schon im kleinen Rahmen - beim Fahrrad.
+
+Um die umweltfreundliche Alternative zum Auto attraktiver für die Karlsruher Bürger\*innen zu gestalten wird aktuell im Gemeinderat eine Vision für ein fahrradfreundlicheres Stadtbild vorgestellt. Diese Vision beinhaltet unter anderem das Aufbauen von sogenannten Fahrradhaltestellen - Treffpunkte an denen sich Radfahrende ausruhen, ihr Fahrrad aufpumpen und die weitere Radroute planen können.
+
+Doch wie findet man für diese Haltestellen geeignete Plätze? Wie können die besten Radrouten gefunden und ungeeignete Stellen umgangen oder ausgebessert werden?
+
+**An dieser Stelle knüpfen wir mit Bikele an!**
+
+Bikele ermöglicht es Bürger\*innen sich aktiv in der Gestaltung der Stadt zu beteiligen. Unsere App soll die täglichen Routen tracken und so über eine Heatmap häufig befahrene Straßen und Aussichtspunkte dargestellt werden können.
+
+Auch das Markieren von Standorten wird in der App ermöglicht. So können etwa besonders schöne Orte für Haltestellen gesetzt, aber auch vor Gefahrenstellen, bspw. wegen fehlender Beschilderung, gewarnt werden.
+
+Um einen zusätzlichen Anreiz für Bürger\*innen zu schaffen und die Fahrradgemeinde näher zusammen zu bringen bietet unsere App zusätzlich einen Community und Gamification Aspekt.
+Durch das Sammeln von Bikele Blättern durch Radfahren und Orte markieren können User an Gewinnspielen teilnehmen, Freunde herausfordern und ihre gesammelten Blätter und Kilometer mit anderen Radfahrenden vergleichen.
+
 
 ### Video
 
@@ -13,7 +29,11 @@ Gruppenmitglieder
 https://user-images.githubusercontent.com/46092144/158054938-65031696-faf8-491c-8577-7f7f67f1a174.mp4
 
 
+## Das wichtigste in Kürze
 
+- Gestalte deine Stadt mit Bikele!
+- Erhalte attraktive Prämien aus dem Fahrradbedarf!
+- Challenge dich und deine Freunde!
 
 ### Mockup
 Das Mockup spigelt wieder, wie wir uns eine erste Version von Bikele vorstelllen könnten. 
