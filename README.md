@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/46092144/158041362-ffa6a79e-a6b9-4411-
 
 
 ### Mockup
-[Demo](https://www.figma.com/proto/LI2PYmKuQUiLs8Ji1z4Jcx/Mockup?page-id=227%3A760&node-id=227%3A954&viewport=241%2C48%2C0.63&scaling=scale-down&starting-point-node-id=227%3A954&show-proto-sidebar=1) Klicken sie sich gerne durch unsere App, und helfen sie Karlsruhe zu einem noch besseren Ort für Fahrradfahrer zu machen ^^
+[Demo](https://www.figma.com/proto/LI2PYmKuQUiLs8Ji1z4Jcx/Mockup?page-id=227%3A760&node-id=227%3A954&viewport=241%2C48%2C0.63&scaling=scale-down&starting-point-node-id=227%3A954&show-proto-sidebar=1) Klicken Sie sich gerne selbst durch unsere App und helfen sie Karlsruhe zu einem noch besseren Ort für Fahrradfahrer zu machen!
 
 
 
