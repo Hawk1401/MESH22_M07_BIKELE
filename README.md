@@ -4,13 +4,16 @@ Gruppenmitglieder
 - Luna Zacharias Zetsche
 - Markus Götz
 - Florian Koch
+
+![grafik](https://user-images.githubusercontent.com/72688158/158055430-b2aa8398-fd26-4f3d-b1ef-12834120ff66.png)
+
 ## Idee
 
 **Was ist die Mobilität der Zukunft?** 
 
 Stellt man sich eine Smart Citry vor, so denkt man häufig an große Dimensionen wie Hyperloops oder Fahrbahnen mit Solarzellen um E-Autos aufzuladen. Intelligenter und umweltfreundlicher Verkehr beginnt jedoch auch schon im kleinen Rahmen - beim Fahrrad.
 
-Um die umweltfreundliche Alternative zum Auto attraktiver für die Karlsruher Bürger\*innen zu gestalten wird aktuell im Gemeinderat eine Vision für ein fahrradfreundlicheres Stadtbild vorgestellt. Diese Vision beinhaltet unter anderem das Aufbauen von sogenannten Fahrradhaltestellen - Treffpunkte an denen sich Radfahrende ausruhen, ihr Fahrrad aufpumpen und die weitere Radroute planen können.
+Um die umweltfreundliche Alternative zum Auto attraktiver für die Karlsruher Bürger\*innen zu gestalten wird aktuell im Gemeinderat eine Vision für ein fahrradfreundlicheres Stadtbild vorgestellt. Diese Vision beinhaltet unter anderem das Aufbauen von sogenannten Fahrradhaltestellen - Treffpunkte an denen sich Radfahrende ausruhen, kleinere Reparaturen durchführen und die weitere Radroute planen können.
 
 Doch wie findet man für diese Haltestellen geeignete Plätze? Wie können die besten Radrouten gefunden und ungeeignete Stellen umgangen oder ausgebessert werden?
 
