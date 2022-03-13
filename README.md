@@ -67,7 +67,7 @@ Die Visualisierung erfolgt mithilfe der Google Maps API.
 
 
 
-Klicken sie [Hier](http://hawk140100-001-site1.ctempurl.com/karlsruhe) um die Live Demo zu testen. Beim ersten Öffnen kan es mehere Sekunden dauern bis die Seite geladen ist.
+Klicken sie [Hier](http://hawk140100-001-site1.ctempurl.com/karlsruhe) um die Live Demo zu testen. Beim ersten Öffnen kann es mehere Sekunden dauern bis die Seite geladen ist.
 
 
 
