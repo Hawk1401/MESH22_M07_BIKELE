@@ -27,9 +27,12 @@ Auch das Markieren von Standorten wird in der App ermöglicht. So können etwa b
 Um einen zusätzlichen Anreiz für Bürger\*innen zu schaffen und die Fahrradgemeinde näher zusammen zu bringen bietet unsere App zusätzlich einen Community und Gamification Aspekt.
 Durch das Sammeln von Bikele Blättern durch Radfahren und Orte markieren können User an Gewinnspielen teilnehmen, Freunde herausfordern und ihre gesammelten Blätter und Kilometer mit anderen Radfahrenden vergleichen.
 
-
+## Zum Slebst ausprobiren 
+### App (Mockup)
+[App](https://www.figma.com/proto/LI2PYmKuQUiLs8Ji1z4Jcx/Mockup?page-id=227%3A760&node-id=227%3A954&viewport=241%2C48%2C0.63&scaling=scale-down&starting-point-node-id=227%3A954&show-proto-sidebar=1) 
+### Maps ansicht
+Klicken sie [Hier](http://hawk140100-001-site1.ctempurl.com/karlsruhe) um die Live Demo zu testen. Beim ersten Öffnen kan es mehere Sekunden dauern bis die Seite geladen ist.
 ### Video
-
 
 https://user-images.githubusercontent.com/46092144/158054938-65031696-faf8-491c-8577-7f7f67f1a174.mp4
 
