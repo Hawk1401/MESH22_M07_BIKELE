@@ -1,5 +1,9 @@
 # MESH22Mobility
-
+Gruppenmitglieder 
+-Simon Meisetschläger
+-Luna Zacharias Zetsche
+-Markus Götz
+-Florian Koch
 ## Idee
 
 
