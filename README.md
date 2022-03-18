@@ -1,5 +1,6 @@
-# MESH22Mobility
-Gruppenmitglieder 
+# 2. Platz bei MESH22
+## Team Bikele
+## Mitglieder 
 - Simon Meisetschläger
 - Luna Zacharias Zetsche
 - Markus Götz
